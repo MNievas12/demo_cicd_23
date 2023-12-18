@@ -2,7 +2,7 @@ from flask import Flask
 
 # print a nice greeting.
 def say_hello(username = "World"):
-    return '<p>HI! %s!</p>\n' % username
+    return '<p>Bye %s!</p>\n' % username
 # some bits of text for the page.
 header_text = '''
 <html>\n<head> <title>Probando esta APP</title> </head>\n<body>'''
